@@ -1,0 +1,39 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	int t;
+	cin>>t;
+	while(t--){
+		int n,m;
+		cin>>n>>m;
+		int **a=new int* [n];
+		for(int i=0;i<n;i++){
+			a[i]=new int[m];
+		}
+		vector <bool> r(n,0);
+		vector <bool> c(m,0);
+		for(int i=0;i<n;i++){
+			for(int j=0;j<m;j++){
+				cin>>a[i][j];
+				if(a[i][j]==1){
+					r[i]=1;
+					c[j]=1;
+				}
+			}
+		}
+		for(int i=0;i<n;i++){
+			bool ok=false;
+			if(r[i]==1){
+				ok=true;
+			}
+			for(int j=0;j<m;j++){
+				if(ok==true||c[j]==1) cout<< 1 <<" ";
+				else cout<< 0 <<" ";
+			}
+			cout<<"\n";
+		}	
+	}
+	return 0;
+}
+
+
