@@ -1,5 +1,4 @@
 #include<bits/stdc++.h>
-//Dinh Tuan Tinh
 using namespace std;
 int main(){
 	int t;cin>>t;

@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-//Dinh Tuan Tinh
+
 using namespace std;
 const long long mod=1e9+7;
 long long n,k;
