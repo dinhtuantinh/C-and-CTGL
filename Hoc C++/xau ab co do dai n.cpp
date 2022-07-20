@@ -1,5 +1,4 @@
 #include<bits/stdc++.h>
-//Dinh Tuan Tinh
 using namespace std;
 int n,a[100];
 void Try(int i){

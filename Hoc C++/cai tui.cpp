@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 int maxb[1001][1001];
 int n, m;
 int a[1001], b[1001];
